@@ -32,6 +32,7 @@ table {
 }
 
 th {
+  border: 1px solid #e5e0fa;
   background-color: #817b9d;
   padding: 10px;
   text-align: left;
