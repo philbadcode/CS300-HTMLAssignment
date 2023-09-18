@@ -1,8 +1,8 @@
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
-  color: black;
-  background-color: white;
+  color: #e5e0fa;
+  background-color: #030109;
 }
 
 main {
@@ -12,4 +12,15 @@ main {
 h1 {
   font-weight: bold;
   font-size: 1.5rem;
+}
+
+.card-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.card {
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
