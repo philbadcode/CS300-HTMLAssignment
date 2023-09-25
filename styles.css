@@ -14,8 +14,16 @@ h1 {
   font-size: 1.5rem;
 }
 
+/* Home Page */
+
 #toggleButton {
   margin-bottom: 15px;
+}
+
+/* ROI Calculator */
+
+.roiInput {
+  margin: 5px;
 }
 
 /* Card Stuff */
