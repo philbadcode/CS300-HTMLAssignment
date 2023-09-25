@@ -83,7 +83,8 @@
             placeholder="Expenses"
           />
         </div>
-        <button type="submit" class="submitbtn btn btn-primary">Submit</button>
+        <button id="calculate" class="submitbtn btn btn-primary">Submit</button>
+        <p id="result"></p>
       </form>
     </main>
     <script
@@ -91,5 +92,16 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script>
+      $(document).ready(function () {
+        $('#calculate').click(function () {
+          let investment = $('#investment').val();
+          let revenue = $('#revenue').val();
+          let expenses = $('#expenses').val();
+          let result = 'hi';
+          $('#result').text(result);
+        });
+      });
+    </script>
   </body>
 </html>
