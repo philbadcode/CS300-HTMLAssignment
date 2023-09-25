@@ -14,6 +14,8 @@ h1 {
   font-size: 1.5rem;
 }
 
+/* Card Stuff */
+
 .card-section {
   display: flex;
   flex-wrap: wrap;
@@ -24,6 +26,8 @@ h1 {
   margin-right: 20px;
   margin-bottom: 20px;
 }
+
+/* Table Stuff */
 
 table {
   border-collapse: collapse;
